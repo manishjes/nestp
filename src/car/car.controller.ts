@@ -14,7 +14,7 @@ export class CarController {
   
   @UseGuards(AuthGuard('jwt'))
   @UsePipes(ValidationPipe)
-  
+   
   
   create(@Body() createCarDto: CreateCarDto) {
     return this.carService.create(createCarDto);
@@ -44,3 +44,4 @@ export class CarController {
     return this.carService.remove(+id);
   }
 }
+      

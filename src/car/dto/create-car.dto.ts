@@ -1,4 +1,5 @@
 import { IsNotEmpty, IsNumberString, IsString,   } from "class-validator"
+import { Carcompany } from "src/carcompany/entities/carcompany.entity"
 
 export class CreateCarDto {
  
@@ -16,5 +17,7 @@ export class CreateCarDto {
     @IsNotEmpty()
     @IsNumberString({}, { message: 'Please enter correct number' })
     carqty:number
+
+    carcompany:Carcompany
 }   
  

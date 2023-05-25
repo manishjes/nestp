@@ -5,4 +5,5 @@ export class UpdateCarDto extends PartialType(CreateCarDto) {
     carname:string
     cardescription:string
     carqty:number
+    
 }

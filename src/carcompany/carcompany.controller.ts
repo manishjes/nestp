@@ -9,6 +9,7 @@ export class CarcompanyController {
 
   @Post()
   create(@Body() createCarcompanyDto: CreateCarcompanyDto) {
+       
     return this.carcompanyService.create(createCarcompanyDto);
   }
 
@@ -32,3 +33,4 @@ export class CarcompanyController {
     return this.carcompanyService.remove(+id);
   }
 }
+  

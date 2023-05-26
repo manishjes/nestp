@@ -6,6 +6,7 @@ import { CarModule } from './car/car.module';
 import { CarcompanyModule } from './carcompany/carcompany.module';
 import { AuthModule } from './auth/auth.module';
 import { AuthenticateModule } from './authenticate/authenticate.module';
+import { OwnerModule } from './owner/owner.module';
 
 
 
@@ -31,6 +32,7 @@ import { AuthenticateModule } from './authenticate/authenticate.module';
     CarcompanyModule,
     AuthModule,
     AuthenticateModule,
+    OwnerModule,
     
     
     

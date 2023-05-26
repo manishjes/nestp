@@ -1,5 +1,6 @@
 import { IsNotEmpty, IsNumberString, IsString,   } from "class-validator"
 import { Carcompany } from "src/carcompany/entities/carcompany.entity"
+import { Owner } from "src/owner/entities/owner.entity"
 
 export class CreateCarDto {
  
@@ -19,5 +20,7 @@ export class CreateCarDto {
     carqty:number
 
     carcompany:Carcompany
+
+    owner:Owner
 }   
  

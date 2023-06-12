@@ -40,5 +40,5 @@ export class CarcompanyService {
   remove(id: number) {
     return this.carcompanyRepository.delete(id)
   }
-}
-            
+}  
+        

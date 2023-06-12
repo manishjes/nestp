@@ -15,7 +15,7 @@ export class OwnerService {
     owner.ownerdesc= createOwnerDto.ownerdesc
 
     return this.ownerRepository.save(owner)
-  }
+  } 
 
   findAll(): Promise<Owner[]> {
     return  this.ownerRepository.find();
